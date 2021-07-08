@@ -20,6 +20,11 @@ url = data['url']
 email = data['email']
 password = data['password']
 
+email_input = "//input[@name='email']"
+password_input = "//input[@name='pass']"
+login_button = "//div[@aria-label='Accessible login button']"
+
+
 upload_xpath = "//input[@type='file' and contains(@accept, 'image')]"
 price_input = "//label[@aria-label='Price']//input[contains(@id, 'jsc_c_')]"
 title_input = "//label[@aria-label='Title']//input[contains(@id, 'jsc_c_')]"
